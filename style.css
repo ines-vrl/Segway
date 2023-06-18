@@ -169,6 +169,11 @@ img{
   margin-top: 15px;
 }
 
+.zoom {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
 .blogs a:hover {
   background-color: azure;
 }
