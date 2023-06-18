@@ -115,6 +115,7 @@ $tweets = $requete->fetchAll(PDO::FETCH_ASSOC);
                 <li><button class="linkedin" type="button"><a href="https://fr.linkedin.com">LinkedIn</a></button></li>
             </ul>
         </footer>
+    <script src="script.js"></script>
 
 </body>
 </html>
