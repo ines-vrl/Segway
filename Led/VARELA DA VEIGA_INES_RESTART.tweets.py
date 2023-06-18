@@ -34,8 +34,8 @@ for led in leds:
     led.duty_u16(0)
 
 for i in range(len(leds)):
-    tab[i].freq(1000)
-    tab[i].duty_u16(0)
+    leds[i].freq(1000)
+    leds[i].duty_u16(0)
     
 
 def set_colour (r,g,b):
